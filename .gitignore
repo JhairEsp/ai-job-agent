@@ -1,0 +1,27 @@
+# Secretos y datos sensibles
+.env
+data/browser_profiles/
+data/*.db
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Pruebas y caché de herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Playwright (navegadores descargados localmente)
+.playwright/
+
+# SO / editor
+.DS_Store
+.idea/
+.vscode/

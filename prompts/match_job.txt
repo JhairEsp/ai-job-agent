@@ -1,0 +1,14 @@
+Compara esta oferta con el CV del candidato y las preferencias de búsqueda.
+
+CRITERIOS DE ORDENAMIENTO (en este orden):
+1. Compatibilidad profesional (skills y puesto)
+2. Ubicación
+3. Modalidad (remoto/híbrido/presencial)
+4. Salario
+5. Experiencia requerida
+6. Skills adicionales
+
+REGLAS:
+- Usa únicamente información presente en el CV y en la oferta.
+- No inventes datos del candidato ni de la empresa.
+- Devuelve solo JSON: {"score": <0-100>, "reason": "<breve>"}
